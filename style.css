@@ -541,3 +541,8 @@ input[type="checkbox"], input[type="radio"] { accent-color: #f59e0b; width: 15px
 }
 .guide-steps .step p { margin: 0; color: var(--muted); font-size: 13.5px; line-height: 1.65; }
 .foot-col { min-width: 0; }
+
+/* ---- 极光层与紧凑 Hero ---- */
+.hero { isolation: isolate; overflow: hidden; }
+.hero.compact { min-height: auto; padding: calc(var(--nav-h) + 54px) 22px 46px; }
+.hero.compact .hero-title { font-size: clamp(38px, 7vw, 78px); }
